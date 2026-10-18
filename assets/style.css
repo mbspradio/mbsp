@@ -91,6 +91,7 @@ html{scroll-padding-top:5.5rem}
   .menubtn{display:inline-block}
   .nav{display:none;width:100%;flex-direction:column;gap:0;padding:.5rem 0 .25rem}
   .nav a{padding:.55rem 0;border-bottom:1px solid var(--line)}
+  .nav a[aria-current="page"]{border-bottom-color:var(--line);border-left:4px solid var(--post);padding-left:.6rem}
   .navtoggle:checked ~ .nav{display:flex}
 }
 
